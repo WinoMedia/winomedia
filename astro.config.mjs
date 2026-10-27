@@ -1,2 +1,7 @@
 import { defineConfig } from 'astro/config';
-export default defineConfig({ site: 'https://USERNAME.github.io', base: '/REPOSITORY/' });
+
+export default defineConfig({
+  site: 'https://winomedia.github.io',
+  base: '/winomedia-website/',
+});
+
