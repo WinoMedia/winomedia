@@ -1,7 +1,2 @@
 import { defineConfig } from 'astro/config';
-
-export default defineConfig({
-  site: 'https://winomedia.github.io',
-  base: '/winomedia-website/',
-});
-
+export default defineConfig({ site: 'https://winomedia.github.io', base: '/winomedia/', output: 'static' });
